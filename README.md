@@ -1,4 +1,7 @@
 # ALX High Level programming
+![alt_text](https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg)
+
+Starting my journey in high level programming whicj i know is going to be fun and much more demanding and different from my previous encounter, but with determination and persistence it's definitly going to be easy just like the low-level-journey.
 
 ## Welcome to the Python world
 
@@ -10,6 +13,7 @@ You'll soon find that with Python (and the majority of higher level languages), 
 
 Like C, Python also has a linter / style guide like Betty, called PEP8, also now known as PyCode.
 
+-- Guillaume
 
 ## Projects
 * 0x00-python-hello_world
