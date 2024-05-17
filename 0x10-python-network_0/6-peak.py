@@ -1,14 +1,17 @@
 #!/usr/bin/python3
-"""
-Module to find the hightest number in an array
+""" This module returns the peak of the list
 """
 
 
 def find_peak(list_of_integers):
+    """ This function returns the peak of the list
     """
-    Method to find hightest number in array
-    """
-    if bool(list_of_integers) is False:
+    if (len(list_of_integers) == 0):
         return None
-    list_of_integers.sort()
-    return list_of_integers[-1]
+
+    else:
+        peak = list_of_integers[0]
+        for i in range(len(list_of_integers)):
+            if list_of_integers[i] > peak:
+                peak = list_of_integers[i]
+        return peak
